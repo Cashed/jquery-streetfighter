@@ -28,6 +28,8 @@ $(document).ready(function() {
 	})
 	.mouseup(function() {
 		$('.ryu-throwing').hide();
+		$('.ryu-cool').hide();
+		$('.ryu-still').hide();
 		$('.ryu-ready').show();
 	});
 
